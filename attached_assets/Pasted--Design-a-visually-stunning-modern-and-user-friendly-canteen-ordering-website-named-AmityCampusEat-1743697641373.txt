@@ -1,0 +1,99 @@
+"Design a visually stunning, modern, and user-friendly canteen ordering website named AmityCampusEats with an intuitive UI/UX experience. The website should offer seamless navigation, vibrant visuals, and responsive design for desktop and mobile devices.
+
+1. Home Page:
+
+Eye-catching hero banner with a high-quality, appetizing food image and a call-to-action button labeled "Start Ordering."
+
+Display three primary options: "Breakfast," "Lunch," and "Snacks."
+
+Showcase popular dishes with interactive, hover-based animations and subtle shadows.
+
+2. Menu Page (Interactive Ordering System):
+
+Split the menu into three sections: "Breakfast," "Lunch," and "Snacks."
+
+For each section, display vibrant, high-resolution images of dishes with descriptions, prices, and an "Add to Cart" button.
+
+When a dish is clicked, a sleek pop-up should appear showing a larger image, detailed description, and price. Include quantity controls (+/-) and an "Add to Cart" button.
+
+3. Menu Items:
+
+Breakfast (Reasonably Priced):
+
+Poori - ₹40: Fluffy and soft Pooris served with spicy potato curry.
+
+Dosa - ₹50: Crispy Dosa served with coconut chutney and sambar.
+
+Idli - ₹30: Soft Idlis with sambar and chutney.
+
+Vada - ₹20: Crispy Vadas with chutney and sambar.
+
+Lunch (Reasonably Priced):
+
+Paneer Palak - ₹120: Creamy spinach gravy with soft paneer cubes.
+
+Chapati - ₹40: Soft Chapatis served with curry.
+
+South Meals - ₹150: Rice, sambar, rasam, curd, papad, pickle, and vegetable curry.
+
+North Meals - ₹170: Roti, rice, dal, curry, pickle, and sweet.
+
+Noodles - ₹80: Spicy and flavorful noodles with vegetables.
+
+Gobi Manchurian - ₹90: Crispy cauliflower in spicy Manchurian sauce.
+
+Snacks (Reasonably Priced):
+
+Samosa - ₹15: Crispy samosas filled with spiced potatoes and peas.
+
+Rasgulla - ₹20: Soft, spongy, and sweet Bengali dessert.
+
+Puffs - ₹25: Flaky and delicious puff pastries with a savory filling.
+
+Cornflakes - ₹30: Light and crunchy cornflakes with milk.
+
+4. Cart and Checkout:
+
+The cart should slide in from the right with a summary of selected items, quantities, and total price.
+
+Include options to increase or decrease quantities and remove items.
+
+Checkout page with input fields for name, phone number, and email.
+
+Payment options: Razorpay/Paytm with payment confirmation.
+
+5. Visuals and UI/UX Design:
+
+Use a vibrant color scheme (orange, red, and white).
+
+Consistently use modern, bold fonts like Poppins or Roboto.
+
+Rounded buttons with subtle shadows and hover effects.
+
+Menu cards with smooth transitions and hover animations.
+
+Attractive and appetizing food images sourced from the internet.
+
+6. Additional Features:
+
+Implement dynamic combo deals, offers, and discounts.
+
+Real-time order status tracking (Ordered → Preparing → Ready for Pickup).
+
+Include customer feedback and ratings for dishes.
+
+Responsive design for all devices.
+
+Seamless navigation with minimal clicks.
+
+7. Final Touches:
+
+Ensure the website is fast-loading and optimized for performance.
+
+Use a clean, professional layout with consistent spacing and alignment.
+
+Provide confirmation alerts and real-time updates during ordering.
+
+Include friendly error messages and validation prompts.
+
+Generate a world-class canteen ordering website named AmityCampusEats that delivers a delightful, seamless, and visually engaging experience for users."
