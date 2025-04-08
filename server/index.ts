@@ -6,10 +6,6 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-const app = express();
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-
 // ✅ Added by Rudhresan for checking current server time
 // ✅ Verified by Rudhresan
 app.get('/api/time', (req, res) => {
