@@ -10,9 +10,15 @@ import { setupAuth } from "./auth";
 export async function registerRoutes(app: Express): Promise<Server> {
   // Serve static files
   app.use('/api/static', express.static(path.join(process.cwd(), 'attached_assets')));
-  
+
+  // ✅ Added by Vignesh (backend-1) for basic ping test
+  app.get("/api/ping", (req: Request, res: Response) => {
+    res.json({ message: "pong from backend-1 ✅" });
+  });
+
   // Set up authentication
   setupAuth(app);
+
   // Get all menu items
   app.get("/api/menu-items", async (req: Request, res: Response) => {
     try {
@@ -93,7 +99,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.status(500).json({ message: "Failed to fetch order" });
     }
   });
-  
+
   // Get orders by user ID
   app.get("/api/user/:userId/orders", async (req: Request, res: Response) => {
     try {
@@ -134,8 +140,6 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.status(500).json({ message: "Failed to update order status" });
     }
   });
-
-  // Auth routes are now handled by setupAuth in auth.ts
 
   const httpServer = createServer(app);
   return httpServer;
